@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+
+h2,
+h3,
+span {
+    color: #faf3df;
+}
+
+.nav {
+    /* text-gray-400 text-[15px]  */
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav:after {
+    content: "";
+    width: 0;
+    height: 4px;
+    margin-top: 12px;
+    display: block;
+    border-radius: 50px;
+    background: rgb(104, 104, 216);
+}
+
+.nav:hover::after {
+    width: 100%;
+}
+
+.active {
+    color: #faf3df;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tweetbtn {
+    background-color: rgb(29, 155, 240);
+}
+
+.xx {
+    color: #83888c;
+    font-size: 13px;
+}
+
+.boxi {
+    background-color: #121212;
+}
+
+
+
+@tailwind utilities;
